@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLDFA2Mehluli", "SLDFA2Mehluli\SLDFA2Mehluli.csproj", "{63497E69-AC59-4AF9-B677-B84C47DEAD9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63497E69-AC59-4AF9-B677-B84C47DEAD9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63497E69-AC59-4AF9-B677-B84C47DEAD9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63497E69-AC59-4AF9-B677-B84C47DEAD9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63497E69-AC59-4AF9-B677-B84C47DEAD9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95110832-98B3-4A5A-99C3-069216A6A624}
+	EndGlobalSection
+EndGlobal
