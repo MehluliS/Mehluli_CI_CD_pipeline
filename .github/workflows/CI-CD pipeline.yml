@@ -3,27 +3,31 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - main  # Change this to the default branch of your repository
+      - main
 
 jobs:
   build:
     name: Build Stage
-    runs-on: windows-latest  # Use the latest Windows runner
+    runs-on: windows-latest
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
+      - name: List Repository Contents
+        run: dir  # Lists the contents of the current directory for debugging
+
       - name: Setup .NET Framework
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '5.0.x'  # Change to the appropriate version
+          dotnet-version: '5.0.x'
 
       - name: Restore Dependencies
-        run: dotnet restore SLDFA2Mehluli.sln
+        run: dotnet restore ./path/to/SLDFA2Mehluli.sln  # Update the path accordingly
 
       - name: Build Application
-        run: dotnet build SLDFA2Mehluli.sln --configuration Release
+        run: dotnet build ./path/to/SLDFA2Mehluli.sln --configuration Release
+
 
   test:
     name: Test Stage
